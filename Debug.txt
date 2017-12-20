@@ -1,0 +1,19 @@
+2017-12-01 08:32:06.186  INFO 8420 --- [ost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : 
+
+Creating filter chain: 
+
+org.springframework.security.web.util.matcher.AnyRequestMatcher@1, 
+
+[
+org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c1561b2, 
+org.springframework.security.web.context.SecurityContextPersistenceFilter@27066e3c, 
+org.springframework.security.web.header.HeaderWriterFilter@3c4127e7,
+ org.springframework.security.web.csrf.CsrfFilter@540dbfc, 
+ org.springframework.security.web.authentication.logout.LogoutFilter@be1314b, 
+ org.springframework.security.web.authentication.www.BasicAuthenticationFilter@217d769e,
+  org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2db1138a,
+   org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4eacaf6b, 
+   org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c34ae67, 
+   org.springframework.security.web.session.SessionManagementFilter@150051cc, 
+   org.springframework.security.web.access.ExceptionTranslationFilter@61907843,
+    org.springframework.security.web.access.intercept.FilterSecurityInterceptor@994fb0f]
